@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-    api.use('ngMeteor');
+    api.use('urigo:angular');
     api.use('famono');
 
     api.add_files('famous-angular.css', 'client');
